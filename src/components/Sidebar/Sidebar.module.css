@@ -1,0 +1,32 @@
+.container {
+  padding-left: 50px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  color: #192252;
+  opacity: 0.7;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.active__li {
+  opacity: 1;
+  background-color: #eff3fa;
+  border-radius: 10px;
+}
